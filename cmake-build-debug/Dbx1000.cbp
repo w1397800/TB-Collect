@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Dbx1000"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/working/grade4/nvm_db/FIR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rundb">
+				<Option output="D:/working/grade4/nvm_db/FIR/cmake-build-debug/rundb.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/working/grade4/nvm_db/FIR/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOGRAPHITE=1"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR/benchmarks"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR/concurrency_control"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR/storage"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR/system"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 rundb"/>
+					<CompileFile command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rundb/fast">
+				<Option output="D:/working/grade4/nvm_db/FIR/cmake-build-debug/rundb.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/working/grade4/nvm_db/FIR/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOGRAPHITE=1"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR/benchmarks"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR/concurrency_control"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR/storage"/>
+					<Add directory="D:/working/grade4/nvm_db/FIR/system"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 rundb/fast"/>
+					<CompileFile command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/working/grade4/nvm_db/FIR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/working/grade4/nvm_db/FIR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/worksoft/CLion-2022.1.2.win/bin/mingw/bin/mingw32-make.exe -f &quot;D:/working/grade4/nvm_db/FIR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/test_txn.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/test_wl.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/tpcc_helper.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/tpcc_helper.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/tpcc_query.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/tpcc_query.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/tpcc_txn.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/tpcc_wl.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/ycsb_query.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/ycsb_query.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/ycsb_txn.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/benchmarks/ycsb_wl.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/dl_detect.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/dl_detect.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/hekaton.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/occ.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/occ.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/plock.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/plock.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_hekaton.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_hekaton.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_lock.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_lock.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_mvcc.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_mvcc.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_occ.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_occ.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_silo.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_silo.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_tictoc.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_tictoc.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_ts.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_ts.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_vll.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/row_vll.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/silo.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/tictoc.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/vll.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/concurrency_control/vll.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/config.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/config.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/catalog.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/catalog.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/index_hash.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/index_hash.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/index_masstree.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/index_masstree.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/row.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/row.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/table.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/storage/table.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/global.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/global.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/helper.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/helper.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/main.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/manager.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/manager.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/mem_alloc.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/mem_alloc.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/parser.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/query.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/query.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/stats.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/stats.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/thread.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/thread.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/txn.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/txn.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/wl.cpp">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/system/wl.h">
+			<Option target="rundb"/>
+		</Unit>
+		<Unit filename="D:/working/grade4/nvm_db/FIR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
