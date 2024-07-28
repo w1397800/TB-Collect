@@ -17,5 +17,5 @@ Experimental Results
 - **Chain Consolidation Performance:**
     - https://github.com/w1397800/TB-Collect/wiki/Chain-Consolidation-Performance
 - **Performance over time**
-    - Space Size Increase Over 10 Minutes: https://github.com/w1397800/FIR/wiki/Checkpoint-Speed-&-Checkpoint-Scale
-    - Throughput over 200 Seconds: https://github.com/w1397800/TB-Collect/wiki/Space-Size-Increase-Over-10-Minutes
+    - Space Size Increase Over 10 Minutes: https://github.com/w1397800/TB-Collect/wiki/Space-Size-Increase-Over-10-Minutes
+    - Throughput over 200 Seconds: https://github.com/w1397800/TB-Collect/wiki/Throughput-over-200-Seconds
