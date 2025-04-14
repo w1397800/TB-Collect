@@ -19,3 +19,12 @@ Experimental Results
 - **Performance over time**
     - Space Size Increase Over 10 Minutes: https://github.com/w1397800/TB-Collect/wiki/Space-Size-Increase-Over-10-Minutes
     - Throughput over 200 Seconds: https://github.com/w1397800/TB-Collect/wiki/Throughput-over-200-Seconds
+
+Supplement Files
+-------------
+Location: supplement_files
+Include: Other_Journals_Review_Comments.pdf
+
+This work was previously submitted to an SCIE journal (not an MDPI journal) and underwent a six-month review process over three rounds. Eventually, we were informed that resubmission was no longer possible, and the manuscript was formally rejected. Nevertheless, we revised the manuscript based on the reviewers’ final comments. Given the valuable and constructive feedback received during the review process, we believe it is worthwhile to include the prior reviewer comments along with our corresponding revisions for reference.
+
+
